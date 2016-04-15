@@ -1,0 +1,26 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.body,
+.footer,
+.header {
+  padding: 1em;
+}
+
+.footer,
+.header {
+  border-bottom: black;
+  width: 100%;
+
+  h1 {
+    margin-top: 0;
+  }
+}
+
+.footer {
+  bottom: 0;
+  position: absolute;
+}
