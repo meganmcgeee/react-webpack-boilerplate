@@ -1,10 +1,9 @@
 import React from 'react';
+import PageHeader from './components/PageHeader.js'
 import './Index.scss';
 
 export default () => (
   <div className="index">
-    <div className="page-header">
-      <h1>React and Webpack with Bootstrap <small>Subtext for header</small></h1>
-    </div>
+    <h2>Webpack, React, and Bootstrap</h2>
   </div>
 );
